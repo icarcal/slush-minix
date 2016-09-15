@@ -1,0 +1,21 @@
+{
+	"rules": {
+		"indent": [2, "tab", { "SwitchCase": 1 }],
+		"space-before-function-paren": [2, { "anonymous": "always", "named": "never" }],
+		"no-use-before-define": [2, "nofunc"],
+		"comma-dangle": [0],
+		"strict": [0],
+		"max-len": [2, {"code": 250}],
+		"import/no-unresolved": [2, {"ignore": ["server"]}],
+		"quotes": [2, "single", {"avoidEscape": true, "allowTemplateLiterals": true}],
+		"no-underscore-dangle": [0]
+	},
+	"env": {
+		"node": true,
+		"mocha": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"airbnb/base"
+	]
+}
