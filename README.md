@@ -1,6 +1,7 @@
 # Slush Minix
 
 > Micro gulp tasks to enhance production
+
 [![Build Status](https://secure.travis-ci.org/icarcal/slush-minix.png?branch=master)](https://travis-ci.org/icarcal/slush-minix) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-minix.png)](http://badges.enytc.com/for/npm/slush-minix)
 
 ## Getting Started
