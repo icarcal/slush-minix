@@ -5,7 +5,8 @@ const gulp = require('./src/gulp/')([
 	'scripts',
 	'serve',
 	'less',
-	'images'
+	'images',
+	'views'
 ]);
 
-gulp.task('default', ['scripts', 'fonts', 'styles', 'less', 'browserify', 'images', 'serve']);
+gulp.task('default', ['scripts', 'fonts', 'styles', 'less', 'browserify', 'images', 'views','serve']);
