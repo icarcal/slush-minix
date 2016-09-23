@@ -11,5 +11,5 @@ module.exports = () => {
 			less()
 		)
 		.pipe(cssnano())
-    .pipe(gulp.dest('${config.buildDir}/css'));
+    .pipe(gulp.dest(`${config.buildDir}/css`));
 };
