@@ -1,7 +1,7 @@
 {
   "name": "slush-minix",
   "description": "Mini gulp task to enhance production",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "homepage": "https://github.com/icarcal/slush-minix",
   "author": {
     "name": "Icaro Caldeira",
