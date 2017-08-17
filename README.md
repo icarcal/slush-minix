@@ -40,6 +40,14 @@ Folders Structure:
 
 ```
 .
+├── src/
+|   └── js
+|   |   └── app.js
+|   └── less
+|   |   └── main.less
+|   └── templates
+|       └── index.pug
+|       └──partials 
 ├── gulp/
 |   └── index.js
 |   └── tasks
@@ -50,8 +58,6 @@ Folders Structure:
 |       └── scripts.js
 |       └── serve.js
 |       └── styles.js
-├── src/
-|   └── app.js
 ├── .editorconfig
 ├── .eslintrc
 ├── .gitignore
